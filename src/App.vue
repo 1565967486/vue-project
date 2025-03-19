@@ -3,10 +3,16 @@
 </script>
 
 <template>
+
+  <view class="txt">ssososo</view>
   <RouterView />
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+.txt {
+  color: $txtColor;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
