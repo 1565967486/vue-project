@@ -3,8 +3,6 @@
 </script>
 
 <template>
-
-  <view class="txt">ssososo</view>
   <RouterView />
 </template>
 

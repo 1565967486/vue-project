@@ -1,6 +1,12 @@
+<script setup>
+import LayoutHeader from "./components/LayoutHeader.vue";
+import LayoutNav from "./components/LayoutNav.vue";
+import LayoutFooter from "./components/LayoutFooter.vue";
+</script>
+
 <template>
-  <div class="login">
-    <h1>This is a login pagssse</h1>
-    <router-view></router-view>
-  </div>
+  <LayoutHeader />
+  <LayoutNav />
+  <router-view />
+  <LayoutFooter />
 </template>
